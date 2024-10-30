@@ -1,35 +1,67 @@
-<h1 id="interactive-story-game">Interactive Story Game</h1>
-<p>This project generates personalized game narratives in real-time
-based on player behavior and decisions, enhancing engagement through
-dynamic story paths and multiple possible endings.</p>
-<p><strong>⚠️ Note: This project is still currently under development…
-⚠️</strong></p>
-<h2 id="project-structure">Project Structure</h2>
-<ul>
-<li><strong>Backend</strong>: Flask (Python with a virtual environment
-for managing dependencies)</li>
-<li><strong>Frontend</strong>: React (JavaScript, CSS)</li>
-<li><strong>LLM</strong>: Llama3.2 (Ollama)</li>
-<li><strong>Dependencies</strong>:
-<ul>
-<li>Python packages (listed in <code>requirements.txt</code>)</li>
-<li>JavaScript packages (listed in <code>package.json</code>)</li>
-</ul></li>
-</ul>
-<h2 id="current-features">Current Features</h2>
-<ul>
-<li><strong>Dynamic Story Generation:</strong> The story evolves based
-on player decisions, making each playthrough unique.</li>
-<li><strong>Player Attributes:</strong> Choices impact attributes like
-bravery, wisdom, curiosity, etc., shaping the player’s character
-profile.</li>
-<li><strong>10 Breakpoints:</strong> The game is designed to end within
-10 decision points (for testing purpose).</li>
-<li><strong>Text-to-Image Generation:</strong> Background images are
-dynamically generated based on the story segments.</li>
-<li><strong>Real-time Decision Feedback:</strong> Players receive
-feedback on their decision speed and style upon completing the
-game.</li>
-</ul>
-<h2 id="sample-outputs">Sample Outputs</h2>
-<p><img width="1245" alt="proj_bg" src="https://github.com/user-attachments/assets/77c004d5-1fbe-4177-952d-cf915115ce79"></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p, ul {
+            margin: 20px;
+            padding: 0 20px;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        hr {
+            margin: 40px 0;
+            border: none;
+            border-top: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="interactive-story-game">Interactive Story Game</h1>
+    <p>This project generates personalized game narratives in real-time based on player behavior and decisions, enhancing engagement through dynamic story paths and multiple possible endings.</p>
+    <p><strong>⚠️ Note: This project is still currently under development… ⚠️</strong></p>
+    <p><strong>The source code is not visible at the moment but will be made accessible once the project is complete.</strong></p>
+    
+    <h2 id="tech-stack">Tech Stack</h2>
+    <ul>
+        <li><strong>Backend</strong>: Flask (Python with a virtual environment for managing dependencies)</li>
+        <li><strong>Frontend</strong>: React (JavaScript, CSS, HTML)</li>
+        <li><strong>LLMs</strong>: Llama3.2 and T2I diffusion model (Ollama)</li>
+        <li><strong>Dependencies</strong>:
+            <ul>
+                <li>Python packages (listed in <code>requirements.txt</code>)</li>
+                <li>JavaScript packages (listed in <code>package.json</code>)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 id="current-features">Current Features</h2>
+    <ul>
+        <li><strong>Dynamic Story Generation:</strong> The story evolves based on player decisions, making each playthrough unique.</li>
+        <li><strong>Player Attributes:</strong> Choices impact attributes like bravery, wisdom, curiosity, etc., shaping the player’s character profile.</li>
+        <li><strong>10 Breakpoints:</strong> The game is designed to end within 10 decision points (for testing purposes).</li>
+        <li><strong>Text-to-Image Generation:</strong> Background images are dynamically generated based on the story segments.</li>
+        <li><strong>Real-time Decision Feedback:</strong> Players receive feedback on their decision speed and style upon completing the game.</li>
+    </ul>
+
+    <h2 id="sample-outputs">Sample Outputs</h2>
+    <img src="img1.png" alt="proj_bg">
+    ------
+    <img src="img2.png" alt="proj_bg">
+
+</body>
+</html>

@@ -22,4 +22,5 @@ This project generates personalized game narratives in real-time based on player
 - **Real-time Decision Feedback:** Players receive feedback on their decision speed and style upon completing the game.
 
 ## Sample Outputs
+
 <img width="1245" alt="proj_bg" src="https://github.com/user-attachments/assets/77c004d5-1fbe-4177-952d-cf915115ce79">

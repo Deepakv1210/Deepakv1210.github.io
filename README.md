@@ -2,7 +2,7 @@
 
 This project generates personalized game narratives in real-time based on player behavior and decisions, enhancing engagement through dynamic story paths and multiple possible endings.
 
-**⚠️ Note: This project is still currently under development...**
+**⚠️ Note: This project is still currently under development... ⚠️**
 
 ## Project Structure
 
